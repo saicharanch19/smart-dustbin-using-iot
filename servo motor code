@@ -1,0 +1,34 @@
+Servo motor code
+// Include necessary libraries
+#include <Servo.h>
+// Define pin numbers
+#define INPUT_PIN 0 // GPIO pin connected to the input signal
+#define SERVO_PIN 14 // GPIO pin connected to the control signal of the servo motor
+// Create a servo object
+Servo myservo;
+void setup() {
+ // Initialize serial communication
+ Serial.begin(9600);
+ // Set pin modes
+ pinMode(INPUT_PIN, INPUT);
+ // Attach the servo to its pin
+ myservo.attach(SERVO_PIN);
+ // Start servo at 0 degrees
+ myservo.write(0);
+}
+void loop() {
+ // Read input pin state
+ int inputState = digitalRead(INPUT_PIN);
+ // Check if input pin is HIGH
+ if (inputState == HIGH) {
+ // Turn servo to 90 degrees
+ myservo.write(180);
+ Serial.println("Servo turned to 180 degrees");
+ } else {
+ // Turn servo to 0 degrees (or any other angle as needed)
+ myservo.write(0);
+ Serial.println("Servo turned to 0 degrees");
+ }
+ // Delay for stability
+ delay(3000);
+}
