@@ -19,6 +19,7 @@ In the above Figure 2 shows a block diagram that covers the general flow of the 
 
 
 
+![image](https://github.com/user-attachments/assets/a36e43eb-fa67-4a4d-b3fd-2f5f6db675d7)
 
 
 
@@ -27,6 +28,7 @@ A flowchart is a graphical representation of a process. It is a type of diagram 
  
 
 
+![image](https://github.com/user-attachments/assets/ae33474a-474a-4334-8c4c-99fa4193d15d)
 
 
 
@@ -77,6 +79,7 @@ A sequence diagram represents object collaboration and is used to define event s
 
 
 
+![image](https://github.com/user-attachments/assets/d169fc8e-0a3f-497c-913e-65cad5076736)
 
 
 
@@ -108,6 +111,7 @@ A DFD model uses a number of notations to represent flow of data:
 
 
 
+![image](https://github.com/user-attachments/assets/3ca01428-70ef-43cd-af48-8e6576d95c44)
 
 
 
@@ -135,8 +139,10 @@ Table 1: Pin Number and Function of Ultrasonic sensor
 
  
  
+![image](https://github.com/user-attachments/assets/db3ed104-7c32-4c85-a012-9148640cdf37)
 
 
+![image](https://github.com/user-attachments/assets/c4ea8a95-94d3-40ee-94a4-5314e98b3cad)
 
 
 
@@ -183,19 +189,23 @@ can be used for communication. However, UART1 (TXD1 pin) features only data tran
 •	EN: The ESP8266 chip is enabled when EN pin is pulled HIGH. When pulled LOW the chip works at minimum power.
 •	RST: RST pin is used to reset the ESP8266 chip.
 •	WAKE: Wake pin is used to wake the chip from deep-sleep.
+![image](https://github.com/user-attachments/assets/177a900f-1b79-4c54-ae5a-9d465da67b36)
+
 4.3	Jumper Wires
 Jumper wires are simply wires that have connector pins at each end, allowing them to be used to connect two points to each other without soldering. Jumper wires are typically used with breadboards and other prototyping tools in order to make it easy to change a circuit as needed.
 
+![image](https://github.com/user-attachments/assets/f8024224-96bb-40a9-86e5-0a476576e008)
 
- 
 4.4	IR Sensor
 Infra-Red Sensor commonly known as IR Sensor is nothing but a combination of IR source and a light detector called photo diode and it work on principal of transmitting light and receiving it and comparing the received amount of light with the help of a comparator LM358. IR Sensors are commonly used in detecting object and obstacles; it can also detect color.
+![image](https://github.com/user-attachments/assets/79176252-2388-42ce-8656-8ed6fc5732f3)
 
 Figure 11:  IR sensor
 4.5	Breadboard
 A breadboard is a rectangular plastic board with a bunch of tiny holes in it. Most electronic components in electronic circuits can be interconnected by inserting their leads or terminals into the holes and then making connections through wires where appropriate. The breadboard has strips of metal underneath the board and connects the holes on the top of the board. A breadboard allows for easy and quick creation of temporary electronic circuits or to carry out experiments with circuit design. Breadboards enable developers to easily connect components or wires thanks to the rows and columns of internally connected spring clips underneath the perforated plastic enclosure.
 
 
+![image](https://github.com/user-attachments/assets/13276ad1-ab18-4565-85bd-9cc0514005d5)
 
  
 4.6	Arduino UNO
@@ -223,6 +233,7 @@ o	Vin- It is the input voltage.
 o	Analog Pins- The pins numbered from A0 to A5 are analog pins. The function of Analog pins is to read the analog sensor used in the connection. It can also act as GPIO (General Purpose Input Output) pins.
 
 
+![image](https://github.com/user-attachments/assets/1a83687d-bbde-4f47-95be-1cd3fed42ed0)
 
 
 
@@ -232,7 +243,8 @@ Servo motors are devices that can rotate to a specific angle or position. They c
 
 A servo is generally composed of the following parts: case, shaft, gear system, potentiometer, DC motor, and embedded board.
  
- 
+ ![image](https://github.com/user-attachments/assets/3da8c84e-b6f9-405a-9ebd-031da0b18732)
+
 
  
 CHAPTER 5 SOFTWARE REQUIREMENTS
@@ -245,6 +257,7 @@ The software required is the Arduino IDE.
 5.2. Arduino IDE
 
 The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. It runs on Windows, Mac OS X, and Linux. The environment is written in Java and based on Processing and other open-source software. This software can be used with any Arduino board. The Arduino development environment contains a text editor for writing code, a message area, a text console, a toolbar with buttons for common functions, and a series of menus. It connects to the Arduino hardware to upload programs and communicate with them. Software written using Arduino are called sketches. These Sketches are written in the text editor. Sketches are saved with the file extension.ino. It has features for cutting/pasting and for searching/replacing text. The message area gives feedback while saving and exporting and also displays errors. The console displays text output by the Arduino environment including complete error messages and other information. The bottom right-hand corner of the window displays the current board and serial port. The toolbar buttons allow you to verify and upload programs, create, open, and save sketches, and open the serial monitor.
+![image](https://github.com/user-attachments/assets/d687ed39-2659-40d7-b6f5-b36aa244723c)
 
  
 5.3	Blynk
@@ -260,6 +273,7 @@ Blynk is a platform that allows to quickly build interfaces for controlling and 
 
 
 5.4	Program EPS8266 NodeMCU with Arduino IDE
+![image](https://github.com/user-attachments/assets/83e1458f-3520-4264-8ae0-2203b3e21580)
 
 1.	From the Menu select |File|Preferences| (Picture 1)
 2.	For the “Additional Boards Manager URLs”, in the "Preferences" dialog set one of the following:
@@ -280,6 +294,7 @@ the ESP8266 libraries: http://arduino.esp8266.com/staging/package_esp8266co m_in
 6.	Select your serial port.
 7.	Upload the program.
 
+![image](https://github.com/user-attachments/assets/d6cdac02-ca84-464b-9244-539d72c31011)
 
 
 
